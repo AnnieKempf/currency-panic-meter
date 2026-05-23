@@ -1,0 +1,32 @@
+[
+    {
+        "currency": "JPY",
+        "rate": 16.9769,
+        "panic_level": "panic"
+    },
+    {
+        "currency": "NOK",
+        "rate": 0.98712,
+        "panic_level": "calm"
+    },
+    {
+        "currency": "DKK",
+        "rate": 0.68753,
+        "panic_level": "calm"
+    },
+    {
+        "currency": "USD",
+        "rate": 0.10667,
+        "panic_level": "calm"
+    },
+    {
+        "currency": "EUR",
+        "rate": 0.092,
+        "panic_level": "calm"
+    },
+    {
+        "currency": "GBP",
+        "rate": 0.07951,
+        "panic_level": "calm"
+    }
+]
