@@ -4,13 +4,13 @@ A Python API project that fetches live exchange-rate data, processes currencies 
 
 ## Features
 
-- Fetches live exchange-rate dat afrom an external API
-- Parses JSON API respones
+- Fetches live exchange-rate data from an external API
+- Parses JSON API responses
 - Processes and sorts currency data
 - Assigns custom panic-level categories
 - Exports results to JSON and CSV
 - Includes logging and error handling
-- Uses modular projects structure
+- Uses modular project structure
 
 ## Technologies used
 
