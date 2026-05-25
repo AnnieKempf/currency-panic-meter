@@ -1,6 +1,6 @@
 # Currency Panic Meter
 
-A Python API project that fetches live exchange-rate data, processes currencies into custom "panic levels", and exports the results to JSON and CSV files.
+A Python API project that fetches live exchange-rate data, processes currencies into custom "panic levels", and exports the results to JSON and CSV files, and stores the data in a SQLite database.
 
 ## Features
 
@@ -11,6 +11,8 @@ A Python API project that fetches live exchange-rate data, processes currencies 
 - Exports results to JSON and CSV
 - Includes logging and error handling
 - Uses modular project structure
+- Stores exchange-rate data in SQLite
+- Reads stored data from the database
 
 ## Technologies used
 
@@ -19,6 +21,8 @@ A Python API project that fetches live exchange-rate data, processes currencies 
 - JSON
 - CSV
 - logging
+- SQLite
+- SQLite3
 
 ## Project Structure
 
@@ -29,8 +33,10 @@ currency-panic-meter/
 ├── api_client.py
 ├── processor.py
 ├── exporter.py
+├── database.py
 ├── logger_config.py
 ├── requirements.txt
+├── .gitignore
 └── README.md
 ```
 
@@ -72,6 +78,10 @@ This project helped me practice:
 - Modular project structure
 - Exporting structured data to CSV and JSON
 - Debugging API and file-export issues
+- Using SQLite with Python
+- Writing and reading database records
+- Understanding backend data flow and persistence
+- Using parameterized SQL queries
 
 ## Future Improvements
 
